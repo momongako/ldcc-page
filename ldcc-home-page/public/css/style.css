@@ -1,0 +1,1392 @@
+@media (min-width: 1200px) {
+    header {
+        position: relative;
+    }
+    .HomeControllerindex header,
+    .HomeControlleradvisor header,
+    .HomeControllertools header,
+    .HomeControllerabout header {
+        position: absolute;
+    }
+}
+
+.fixed_height {
+    height: 175px;
+}
+
+.main-list-blog .content p {
+    margin: 0;
+}
+
+.header-main.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-main.fixed .main-menu {
+    margin-top: 20px;
+}
+
+.header-main.fixed .main-menu .logo img {
+    max-width: 95px;
+    padding-bottom: 10px;
+}
+
+.header-top {
+    z-index: 1;
+}
+
+.containerdiv {
+    border: 0;
+    float: left;
+    position: relative;
+    width: 85px;
+}
+
+.cornerimage {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.containerdiv img {
+    max-width: 85px;
+}
+
+.header-main .top-menu a {
+    font-weight: 400;
+}
+
+.header-main .top-menu .change-language li {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.header-main .top-menu .top-text {
+    justify-content: flex-end;
+}
+
+.header-main .top-menu ul.top-menu {
+    margin-right: 75px;
+    margin-bottom: 0px;
+}
+
+.main-menu .menu ul li {
+    margin-left: 40px;
+}
+
+.about .qoute p {
+    color: #1F3FCC;
+}
+
+.featured .content-text ul.list-featured {
+    margin-top: 50px;
+}
+
+.featured .content-text {
+    margin-left: 85px;
+}
+
+.featured .content-text ul li {
+    padding: 24px 40px;
+}
+
+.featured .content-text ul li:hover p {
+    margin-left: 0px;
+}
+
+.featured .content-text ul li p {
+    color: #666666;
+    font-size: 16px;
+}
+
+.btn-border-hover.active,
+.btn-border-hover:hover {
+    font-weight: 700;
+}
+
+.guide .steps {
+    margin-bottom: 50px;
+}
+
+.guide .steps li>span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.guide .content-text {
+    font-size: 16px;
+}
+
+.advisor ul li .fancy h4 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+.advisor ul li .fancy p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.advisor .fancy-box-2 .content p,
+.fancy-box-2 .content p {
+    font-size: 16px;
+}
+
+.shared .article .content-text {
+    padding: 13px 30px;
+}
+
+.shared p {
+    font-size: 20px;
+}
+
+.shared .article .content-text .title a {
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.shared .article .content-text .title {
+    margin: 25px 0px 35px;
+    min-height: 54px;
+}
+
+.shared .article .content-text ul {
+    display: flex;
+    margin: 0px;
+}
+
+.shared h3 {
+    margin: 70px 0px 25px;
+}
+
+.shared p {
+    margin-bottom: 5px;
+}
+
+.shared .article.new {
+    justify-content: initial;
+    min-height: 390px;
+}
+
+.testimonial .carousel-testimonial .item .content p {
+    color: #666666;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonial .carousel-testimonial .item .content .testimonial_sub_title p {
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.carousel-testimonial .owl-nav button {
+    border-radius: 64px;
+}
+
+.testimonial .carousel-testimonial img {
+    max-width: initial;
+}
+
+
+/* Page cố vấn */
+
+.HomeControlleradvisor .slide .content-slide h2 {
+    margin-bottom: 35px;
+}
+
+.HomeControlleradvisor .hex-icon .hex {
+    width: 120px;
+    height: 120px;
+}
+
+.HomeControlleradvisor .signature .steps li>.text {
+    margin-top: 0px;
+}
+
+.HomeControlleradvisor .signature .steps li.active>.text {
+    width: 120px;
+}
+
+.HomeControlleradvisor li.active .hex-icon span.icon,
+.HomeControlleradvisor li:hover .hex-icon span.icon {
+    color: #fff;
+}
+
+.HomeControlleradvisor .guide .steps li {
+    margin-right: 10px;
+}
+
+.HomeControlleradvisor .guide .steps {
+    margin-bottom: 40px;
+}
+
+.advisor_description {
+    display: flex;
+}
+
+.advisor_description .item {
+    width: 390px;
+    margin: 0 auto;
+}
+
+.advisor_description .item p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.tool-list .tools li p,
+.list-featured ul li .fancy-item p {
+    font-size: 16px;
+}
+
+.HomeControlleradvisor .guide.vertical .hex-icon .hex {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+    -webkit-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+}
+
+.HomeControlleradvisor .vertical .hex-icon .number {
+    top: 48%;
+}
+
+.HomeControlleradvisor .guide.vertical li.active .hex-icon .hex,
+.HomeControlleradvisor .guide.vertical li:hover .hex-icon .hex {
+    background: linear-gradient(180deg, #ffffff 32.29%, #ffffff 100%);
+}
+
+.HomeControlleradvisor .vertical .hex-icon .number .text {
+    color: #fff;
+}
+
+.HomeControlleradvisor .vertical .hex-icon .hex::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    height: 53px;
+    width: 53px;
+    background-color: #1f3fcc;
+    clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+    -webkit-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+}
+
+.HomeControlleradvisor .guide.vertical li.active .hex-icon .hex::before,
+.HomeControlleradvisor .guide.vertical li:hover .hex-icon .hex::before {
+    display: none;
+}
+
+.HomeControlleradvisor .guide.vertical .steps li .content-text h4 {
+    margin: 0px 0px 22px;
+}
+
+.HomeControlleradvisor .guide.vertical .steps li:after {
+    left: 27px;
+}
+
+.HomeControlleradvisor .guide.vertical .steps li .hex-icon {
+    margin-bottom: 15px;
+}
+
+.HomeControlleradvisor .guide.vertical .steps li .content-text {
+    max-height: 128px;
+    overflow: hidden;
+    position: absolute;
+    left: 10%;
+    max-width: 500px;
+}
+
+.HomeControlleradvisor .leaders ul.list-advisor li .member .pattern-hex,
+.HomeControllerindex .leaders ul.list-advisor li .member .pattern-hex,
+.HomeControllerabout .leaders ul.list-advisor li .member .pattern-hex {
+    width: 75%;
+}
+
+.HomeControlleradvisor .advisor-service .owl-carousel .owl-item img {
+    max-height: 300px;
+}
+
+.HomeControlleradvisor .advisor-service .owl-services {
+    margin-bottom: 0px;
+}
+
+.HomeControlleradvisor .guide.vertical .content-carousel img {
+    max-height: 600px;
+}
+
+.HomeControlleradvisor .guide.vertical .steps li {
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.HomeControlleradvisor .guide.vertical .steps {
+    margin-bottom: 40px;
+    margin-top: 56px;
+}
+
+.HomeControlleradvisor .list-featured {
+    margin-top: 123px;
+}
+
+.HomeControlleradvisor .list-featured ul li .fancy-item h4 {
+    margin-top: 45px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.HomeControlleradvisor .list-featured ul li .fancy-item {
+    min-height: 272px;
+}
+
+.HomeControlleradvisor .shared.list-article h3 {
+    margin: 70px 0px 70px;
+}
+
+.HomeControllersupports .content-search .search-form input,
+.HomeControllerdetailSupport .content-search .search-form input {
+    padding-left: 30px;
+}
+
+.HomeControllerabout .advisor h3 {
+    padding: 0px 0px 80px 0px;
+}
+
+.HomeControllerabout .advisor ul li .fancy p.text,
+.HomeControllerabout .advisor ul li .fancy div.text {
+    line-height: 21px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.HomeControllerabout .advisor ul li .fancy p {
+    line-height: 21px;
+}
+
+.HomeControllerabout .content-tamnhin {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 500px;
+}
+
+.HomeControllerabout .guide.signature .heading {
+    margin-bottom: 76px;
+}
+
+.HomeControllerabout .content_left_contact {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: initial;
+    max-width: 390px;
+}
+
+.HomeControllerabout .content_left_contact p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: initial;
+}
+
+.HomeControllerabout .contact-form h3 {
+    margin-bottom: 70px;
+}
+
+.HomeControllerabout .about .qoute {
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.HomeControllerabout .about .mota {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header {
+    background: none;
+}
+
+.HomeControllertools .list-mobile h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.HomeControllertools .list-mobile .content p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #999999;
+}
+
+.HomeControllertools .list-mobile img {
+    max-height: 482px;
+}
+
+.HomeControllertools .tool-list h3 {
+    margin: 0px 0px 65px 0px;
+}
+
+.HomeControllertools .guide.reverse .steps li .hex-icon .number {
+    top: 52%;
+}
+
+.HomeControllertools .guide.reverse .steps li .content-text {
+    max-height: 128px;
+    overflow: hidden;
+    position: absolute;
+    left: 10%;
+    top: -15px;
+    max-width: 390px;
+}
+
+.HomeControllertools .guide.reverse .steps {
+    /* margin-top: 100px; */
+}
+
+.HomeControllertools .guide .content-carousel img {
+    max-height: 500px;
+    max-width: initial;
+}
+
+.HomeControllertools .featured.reverse img.img-responsive {
+    max-height: 500px;
+}
+
+
+}
+.HomeControllertools .guide.reverse .steps li:after {
+    left: 27px;
+}
+.HomeControllertools .guide.reverse .steps li:after {
+    content: "";
+    height: 52px;
+    width: 1px;
+    background: rgba(31, 63, 204, 0.5);
+    position: absolute;
+    left: 24px;
+    top: 94%;
+}
+.HomeControllertools .guide.reverse .steps li {
+    position: relative;
+    margin-bottom: 65px;
+}
+.HomeControllertools .guide.reverse .steps li .hex-icon {
+    margin-bottom: 22px;
+}
+.HomeControllertools .guide.reverse li.active .hex-icon .hex,
+.HomeControllertools .guide.reverse li:hover .hex-icon .hex {
+    background: linear-gradient(180deg, #ffffff 32.29%, #ffffff 100%);
+}
+.HomeControllertools .guide.reverse .hex-icon .hex {
+    width: 55px;
+    height: 55px;
+    background-color: #1F3FCC;
+    clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+    -webkit-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+}
+.HomeControllertools .guide.reverse .hex-icon .hex::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    height: 53px;
+    width: 53px;
+    background-color: #ffffff00;
+    clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+    -webkit-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+}
+.HomeControllertools .vertical h3 {
+    margin: 0px 0px 85px;
+}
+.HomeControllerindex .testimonial .change-test img {
+    height: 90px;
+    width: 90px;
+}
+.HomeControllerindex .slide .content-slide h2 {
+    margin-bottom: 20px;
+}
+.HomeControllerindex .blog-new .owl-stage-outer .owl-item {
+    padding: 30px 15px 13px;
+}
+.slide .content-slide p {
+    margin: 0px;
+    font-size: 16px;
+}
+.slide .content-slide h2 {
+    margin-bottom: 40px;
+}
+.slide .content-slide .button-action {
+    margin-top: 40px;
+}
+.BlogControllerdetailPost .main-article .content .title {
+    margin: 30px 0px 25px;
+}
+.BlogControllerdetailPost .main-article .content .author .date {
+    line-height: 55px;
+}
+.BlogControllerdetailPost .main-article .related h3 {
+    color: #1F3FCC;
+    margin: 0px;
+}
+.BlogControllerdetailPost .item-related {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 25px;
+    min-height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.BlogControllerdetailPost .related.same-cat .item-related {
+    margin-top: 30px;
+}
+.BlogControllerdetailPost .item-related .cat {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.BlogControllerdetailPost .item-related .image {
+    margin-bottom: 10px;
+}
+.BlogControllerdetailPost .item-related .cat span {
+    color: #fff;
+    background: #85A9FF;
+    padding: 5px;
+    font-size: 12px;
+    padding: 2px 5px;
+    padding-bottom: 4px;
+}
+.BlogControllerdetailPost .item-related .cat span i {
+    font-size: 10px;
+}
+.BlogControllerdetailPost .item-related h4 {
+    margin: 20px 0px 18px;
+    font-weight: 600;
+}
+.BlogControllerdetailPost .owl-carousel.owl-drag .owl-item {
+    padding: 30px 10px 13px;
+}
+.BlogControllerdetailPost .author .author-info p {
+    line-height: 17px;
+    margin-top: 10px;
+}
+.BlogControllerdetailPost .author .date i {
+    margin-left: 6px;
+}
+.BlogControllerdetailPost .related {
+    margin: 60px 0px 38px;
+}
+.BlogControllerdetailPost .related.same-cat {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+.BlogControllerdetailPost .sidebar-action.fixed {
+    position: sticky;
+    top: 100px;
+}
+.main-list-blog {
+    margin: 0;
+    position: relative;
+}
+.main-list-blog .content .btn {
+    padding: 5px 15px;
+}
+.main-list-blog li {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 32px;
+    margin-bottom: 23px;
+    position: relative;
+}
+.main-list-blog .content a {
+    width: auto;
+}
+.main-list-blog a.cat {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: auto;
+}
+.main-list-blog .cat span {
+    color: #fff;
+    background: #85A9FF;
+    padding: 5px;
+    font-size: 12px;
+}
+.main-list-blog .cat span {
+    padding: 2px 8px;
+    padding-bottom: 4px;
+}
+.main-list-blog .cat span i {
+    font-size: 11px;
+}
+.BlogControllerindex .line-right {
+    color: #1F3FCC;
+}
+.BlogControllerindex .list-blog-mini li {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 20px 24px;
+    margin-bottom: 23px;
+    position: relative;
+}
+.BlogControllerindex .list-blog-mini .cat span {
+    color: #fff;
+    background: #85A9FF;
+    padding: 2px 5px;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+.BlogControllerindex .list-blog-mini .cat {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+.BlogControllerindex .list-blog-mini .cat span i {
+    font-size: 10px;
+}
+.BlogControllerindex .list-blogs .block .img-responsive {
+    margin: 0 auto;
+}
+.BlogControllerindex .blog-header .item-blog .content h3 a:hover {
+    color: #06afef;
+}
+.shared .article .content-text ul li a {
+    color: #85A9FF;
+}
+.pagination ul li.disabled {
+    display: none;
+}
+.pagination ul li.page_top_end a {
+    width: auto;
+    /* box-shadow: none; */
+    
+    padding: 0px 5px;
+}
+.line2 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.line3 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.know-item h4 {
+    margin: 20px 0px 5px;
+}
+.HomeControllerexpertise .item-related .image {
+    margin-bottom: 10px;
+}
+.HomeControllerexpertise .item-related h4 {
+    margin: 20px 0px 10px;
+    font-weight: 600;
+}
+.HomeControllerexpertise .blog-header .item-blog .content span,
+.HomeControllerexpertise span.label,
+.HomeControllerexpertise .know-item .image span,
+.HomeControllerexpertise .item-related .image span,
+.HomeControllerexpertise .main-list-blog .image span,
+.HomeControllerexpertise .list-blog-mini .image span {
+    padding: 2px 5px;
+    padding-bottom: 2px;
+    display: initial;
+    margin: 0px;
+}
+.HomeControllerexpertise .video .tab-content .bg-image span {
+    padding: 1px 5px;
+    padding-bottom: 2px;
+    display: initial;
+    margin: 0px;
+}
+.HomeControllerexpertise .know-item h4 a,
+.HomeControllerexpertise .list-blog-mini .content a {
+    font-weight: 600;
+}
+.HomeControllerexpertise .main-list-blog .content p {
+    line-height: 21px;
+}
+.HomeControllerexpertise .main-list-blog .content h3 {
+    margin: 0px 0px 5px;
+}
+.HomeControllerexpertise .main-list-blog .content span {
+    margin-bottom: 18px;
+}
+.HomeControllerexpertise .main-list-blog .content .btn {
+    margin-top: 19px;
+}
+.HomeControllerexpertise .section-3 .know-item h4 {
+    margin-bottom: 16px;
+}
+.HomeControllerexpertise .section-5 .know-item h4 {
+    margin: 13px 0px 5px;
+}
+.HomeControllerexpertise .section-5 .know-item h4 {
+    margin: 13px 0px 5px;
+}
+.HomeControllerexpertise .block-knowledge .top-section h3 {
+    margin: 0px 0px 15px 0px;
+}
+.HomeControllerexpertise .block-knowledge .top-section {
+    margin-bottom: 18px;
+}
+.shared .article.new img {
+    object-fit: cover;
+    width: 100%;
+}
+.BlogControllerdetailPost .main-article .content .content-description {
+    margin-top: 45px;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: left;
+    color: #000;
+    font-weight: 600;
+    font-family: averta-light;
+}
+.BlogControllerdetailPost .main-article .content .content-text {
+    margin-top: 45px;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: left;
+    font-family: averta-light;
+}
+.BlogControllerdetailPost .main-article .content .content-text ul,
+.BlogControllerdetailPost .main-article .content .content-text ol {
+    list-style: initial;
+    margin-left: 45px;
+}
+.BlogControllerdetailPost .main-article .content .content-text p {
+    margin-bottom: 10px;
+}
+.BlogControllerdetailPost .main-article .content .author .date a {
+    color: #999;
+}
+.shared .article .content-text .meta a {
+    color: #999;
+}
+.main-content-article .content {
+    padding: 0px 10px;
+    margin: 0 auto;
+    max-width: 700px;
+}
+.BlogControllerlistPost .main-content,
+.BlogControllertagPost .main-content,
+.BlogControllersearchPost .main-content
+/* .AdvisorControllerindex .main-content,
+.AdvisorControllerlistPost .main-content,
+.AdvisorControllercreatePost .main-content */
+{
+    margin-bottom: 50px;
+    padding-top: 0px;
+}
+.main-content {
+    min-height: 300px;
+    padding-top: 0px;
+}
+.blog-header .item-blog .content span {
+    padding: 2px 5px;
+    padding-bottom: 2px;
+}
+.main-menu .menu ul li:hover>ul {
+    display: block;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    z-index: 1;
+}
+.main-menu .menu ul li>ul li:hover a {
+    color: #1F3FCC;
+    background: #458af1;
+    color: #fff;
+}
+.main-article .content .category ul li:hover span,
+.main-article .content .category ul li:hover span i {
+    color: #fff;
+    background: #85A9FF;
+}
+.btn-border-hover,
+.hex-icon .number,
+.hex-icon span.icon,
+.vertical .steps li,
+.list-featured ul li {
+    cursor: pointer;
+}
+div#comment-content1 textarea,
+div#comment-content textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 125px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    padding: 15px;
+}
+.commentdetail,
+.re-comment .comment {
+    margin-top: 30px;
+}
+.commentdetail .img {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 48px;
+    height: 56px;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
+}
+.commentdetail .comment-info {
+    /* display: inline-block; */
+}
+.commentdetail .comment-info p {
+    font-size: 14px;
+    margin: 5px 0px 0px;
+    color: #1F3FCC;
+    line-height: 17px;
+    margin-top: 10px;
+}
+.commentdetail .comment-info span {
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+.comment-meta-bottom {
+    margin-bottom: 50px;
+}
+.show_comment_child {
+    font-size: 12px;
+}
+.list-blog-mini a.cat {
+    position: absolute;
+    top: 25px;
+    left: 42px;
+    width: auto;
+}
+.list-blog-mini .cat span,
+.content-know a.cat span,
+.block-knowledge .item-related a.cat span {
+    color: #fff;
+    background: #85A9FF;
+    font-size: 12px;
+    padding: 2px 8px;
+    padding-bottom: 4px;
+}
+.content-know a.cat {
+    position: absolute;
+    top: 35px;
+    left: 48px;
+    width: auto;
+}
+.block-knowledge.section-3 .content-know a.cat {
+    position: absolute;
+    top: 35px;
+    left: 48px;
+    width: auto;
+}
+.block-knowledge .item-related a.cat {
+    position: absolute;
+    top: 35px;
+    left: 48px;
+    width: auto;
+}
+.tab-carousel .content-know a.cat {
+    position: absolute;
+    top: 50px;
+    left: 48px;
+    width: auto;
+}
+.page-knowlegde .tab-carousel .nav-tabs li:hover .hex-icon .icon i,
+.page-knowlegde .tab-carousel .nav-tabs li:hover .hex-icon .icon label,
+.page-knowlegde .tab-carousel .nav-tabs li.active .hex-icon .icon i,
+.page-knowlegde .tab-carousel .nav-tabs li.active .hex-icon .icon label {
+    cursor: pointer;
+}
+.page-knowlegde .podcast .tab-content ul {
+    padding: 5px 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 258px;
+}
+.HomeControllerexpertise .video .tab-content .bg-image {
+    padding: 0px;
+    ;
+}
+.modal-open .modal {
+    background: rgba(0, 0, 0, 0.5);
+}
+.block-knowledge .know-item {
+    min-height: 310px;
+}
+.tab-carousel .know-item {
+    min-height: 500px;
+    max-width: 415px;
+}
+.HomeControllerindex .main-content .slide .img-responsive,
+.HomeControlleradvisor .main-content .slide .img-responsive,
+.HomeControllerabout .main-content .slide .img-responsive,
+.HomeControllertools .main-content .slide .img-responsive {
+    height: 100vh;
+    object-fit: cover;
+}
+.main-menu .menu ul li>ul li a {
+    font-weight: 400;
+}
+.header-main.fixed.hide_menu {
+    top: -150px;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.HomeControllerabout .slide.about-page,
+.HomeControllerabout .about,
+.HomeControllerabout .advisor,
+.HomeControllerabout .guide.signature,
+.HomeControllerabout .leaders,
+.HomeControllerabout .contact-form {
+    height: 100vh;
+}
+.about .qoute p,
+.about p {
+    font-size: 16px;
+}
+.view_more_coment {
+    transform-origin: 0px 0px;
+    opacity: 1;
+    transform: scale(1, 1);
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(270deg, #1F3FCC 0%, #458AF1 100%);
+    text-align: center;
+    margin-top: 20px;
+}
+.view_more_coment a {
+    background: #458AF1;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    font: 400 15px/48px arial;
+    color: #fff;
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+.view_more_coment a:hover {
+    background: #087CCE;
+    color: #fff;
+}
+.main-menu .menu ul li a.active {
+    color: #1F3FCC;
+}
+@media (min-width: 1802px) {
+    .header-main {
+        margin-top: -60px;
+    }
+}
+@media (min-width: 1600px) {
+    .header-main {
+        margin-top: -50px;
+    }
+}
+@media (min-width: 1440px) {
+    .header-main {
+        margin-top: -43px;
+    }
+}
+
+/* @media (min-width: 1199px) {} */
+@media (min-width: 1200px) {
+    .HomeControllersupports header,
+    .HomeControllerdetailSupport header,
+    .BlogControllerdetailPost header,
+    .BlogControllerindex header,
+    .HomeControllerexpertise header,
+    .BlogControllerlistPost header,
+    .BlogControllertagPost header,
+    .BlogControllersearchPost header {
+        position: relative;
+    }
+    
+    .HomeControllerindex .main-content,
+    .HomeControlleradvisor .main-content,
+    .HomeControllertools .main-content,
+    .HomeControllerabout .main-content,
+    .BlogControllerdetailPost .main-content,
+    .HomeControllerexpertise .main-content,
+    .HomeControllersupports .main-content,
+    .HomeControllerdetailSupport .main-content,
+    .BlogControllerindex .main-content {
+        padding-top: 0px;
+    }
+    
+    .HomeControllerabout .slide.about-page {
+        margin-top: 0px;
+    }
+    
+    .banner ul {
+        margin-top: 0px;
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .BlogControllerdetailPost .sidebar-action {
+        margin-top: 22px;
+        border-top: 0px;
+    }
+}
+@media (min-width: 1170px) {
+    .featured .content-text {
+        margin-left: 0px;
+    }
+    
+    .featured .col-md-6 .featured-image {
+        max-height: 640px;
+        width: auto;
+    }
+}
+@media (min-width: 576px) {
+    .slide .content-slide {
+        transform: translateY(-40%);
+    }
+}
+@media (max-width: 1199px) {
+    .main-menu .menu ul li {
+        margin-left: 0px;
+        line-height: 36px;
+        width: 100%;
+    }
+    
+    .main-menu .menu ul li a i {
+        position: relative;
+        top: auto;
+    }
+    
+    .main-menu .menu ul li i {
+        right: 0px;
+        position: absolute;
+        top: 10px;
+    }
+    
+    .main-menu .menu ul li a {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .main-menu .menu ul li a.has-submenu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu {
+        position: relative;
+        padding: 0px;
+        margin-top: -5px;
+        border: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .HomeControlleradvisor .leaders ul.list-advisor li .member .pattern-hex,
+    .HomeControllerindex .leaders ul.list-advisor li .member .pattern-hex,
+    .HomeControllerabout .leaders ul.list-advisor li .member .pattern-hex {
+        width: 100%;
+    }
+    
+    .HomeControllerabout .about,
+    .HomeControllerabout .advisor,
+    .HomeControllerabout .guide.signature,
+    .HomeControllerabout .leaders,
+    .HomeControllerabout .contact-form {
+        height: initial;
+    }
+}
+@media (max-width: 991px) {
+    .BlogControllerdetailPost .main-article .content .title {
+        line-height: 38px;
+        margin: 20px 0px 25px;
+    }
+    
+    .BlogControllerdetailPost .main-article .content .content-description {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    
+    .BlogControllerdetailPost .main-article .content .content-text {
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    
+    .guide .col-md-7,
+    .guide .col-md-5 {
+        width: 100%;
+    }
+    
+    .guide .col-md-7 {
+        order: 2;
+    }
+    
+    .featured .col-md-6:first-child {
+        order: 2;
+    }
+    
+    .slide .content-slide p {
+        font-size: 16px;
+    }
+    
+    .guide .steps {
+        justify-content: center;
+    }
+    
+    .featured .content-text {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .HomeControlleradvisor .hex-icon .hex {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .HomeControlleradvisor .signature .steps li.active>.text {
+        width: 75px;
+        font-size: 20px;
+    }
+    
+    .HomeControlleradvisor .guide .steps {
+        margin-bottom: 25px;
+    }
+    
+    .hex-icon .hex {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .main-menu .menu ul li {
+        margin-left: 0px;
+        line-height: 36px;
+        width: 100%;
+    }
+    
+    .main-menu .menu ul li a i {
+        position: relative;
+        top: auto;
+    }
+    
+    .main-menu .menu ul li i {
+        right: 0px;
+        position: absolute;
+        top: 10px;
+    }
+    
+    .main-menu .menu ul li a.has-submenu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .main-menu .menu ul li a.has-submenu i {
+        position: absolute;
+        right: 0;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu {
+        position: relative;
+        padding: 0px;
+        margin-top: -5px;
+        border: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu li {
+        line-height: 20px;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu li:first-child a {
+        padding-top: 20px;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu li a {
+        margin-bottom: 0px;
+    }
+    
+    .main-menu .menu ul li>ul.sub-menu {
+        display: none;
+    }
+    
+    .main-list-blog a {
+        width: 100%;
+    }
+    
+    .breadcrum {
+        display: block;
+        float: left;
+        padding-bottom: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .breadcrum li {
+        float: left;
+        line-height: 25px;
+    }
+    
+    .guide .content-carousel {
+        margin-bottom: 30px;
+    }
+    
+    .HomeControllerabout .slide.about-page,
+    .HomeControllerabout .about,
+    .HomeControllerabout .advisor,
+    .HomeControllerabout .guide.signature,
+    .HomeControllerabout .leaders,
+    .HomeControllerabout .contact-form {
+        height: auto;
+    }
+    
+    .HomeControlleradvisor .guide.vertical .steps li {
+        margin-bottom: 80px;
+    }
+    
+    .HomeControlleradvisor .guide.vertical .steps li .content-text {
+        max-height: 155px;
+    }
+}
+@media (max-width: 575px) {
+    .HomeControllerindex .main-content,
+    .HomeControlleradvisor .main-content,
+    .HomeControllerabout .main-content,
+    .HomeControllertools .main-content {}
+    
+    .HomeControllerindex .main-content .slide,
+    .HomeControlleradvisor .main-content .slide,
+    .HomeControllerabout .main-content .slide,
+    .HomeControllertools .main-content .slide {
+        position: relative;
+    }
+    
+    .slide .content-slide h2 {
+        font-size: 36px;
+    }
+    
+    .HomeControllerindex .main-content .slide .img-responsive,
+    .HomeControlleradvisor .main-content .slide .img-responsive,
+    .HomeControllerabout .main-content .slide .img-responsive,
+    .HomeControllertools .main-content .slide .img-responsive {
+        height: 55vh;
+        object-fit: cover;
+        margin-top: -125px;
+    }
+    
+    .pagination ul li {
+        margin-right: 10px;
+    }
+    
+    .pagination ul li.page_top_end a {
+        line-height: 15px;
+    }
+}
+
+/* Safari 10.1+ */
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .row {
+            display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+        }
+        .row:after,
+        .row:before {
+            display: none;
+        }
+        .blog-header .row {
+            display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+        }
+        .HomeControllerindex .fancy-box-2 .content {
+            max-width: 99%;
+        }
+    }
+}
+
+/* Safari 9 */
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+    /*
+      Define here the CSS styles applied only to the Safari 9 version when
+      running in any device
+     */
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+    /*
+      Define here the CSS styles applied only to the Safari 6 and 7 versions when
+      running them in any device (computers, iPhone, iPad, ...)
+     */
+    
+    .row {
+        /* display: -webkit-flex;
+        display: -webkit-box;
+        display: -moz-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; */
+    }
+}

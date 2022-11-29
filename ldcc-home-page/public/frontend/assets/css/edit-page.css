@@ -1,0 +1,138 @@
+a{
+    color: inherit;
+}
+/*product saas*/
+a.dropbtn {
+    color: #000000;
+}
+div p a {
+    color: #000000;
+}
+.size-icon-edit{
+    margin-top: 0 !important;
+    font-size: 15px !important;
+}
+.edit-table-saas{
+    padding: 0px !important;
+    border-bottom: none !important;
+    color: black !important;
+}
+/*end product saas*/
+/*product smart parking*/
+.edit-center-product {
+    line-height: 20px;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-weight: inherit;
+}
+h2.dbl__title-wrapper.education-title.groove-headingtitle {
+    margin-bottom: 15px;
+}
+.edit-title-smart-parking-product{
+    line-height: 20px;
+    font-weight: inherit;
+    font-size: 15px;
+}
+/*end product smart parking*/
+/*detail*/
+
+/*button detail case study*/
+.btn-round {
+    border-width: 1px;
+    border-radius: 5px !important;
+    padding: 11px 23px !important;
+}
+.btn-primary {
+    background-color: #B3000F !important;
+    color: #FFFFFF;
+}
+.btn, .navbar .navbar-nav>a.btn {
+    font-weight: 400;
+    font-size: 0.8571em !important;
+    line-height: 1.35em !important;
+    border: none !important;
+    margin: 10px 1px;
+    cursor: pointer;
+    text-transform: none ;
+}
+/*end button detail case study*/
+/*from detail*/
+.site-main{
+    background-color: white !important;
+}
+h2.dbl__title-wrapper {
+    margin-bottom: 15px;
+}
+ul.custom-text-editor {
+    margin-bottom: 0px;
+}
+/*end from detail*/
+
+/*end detail*/
+
+/*footer*/
+.groove-element.groove-column.groove-col-50.padding0.d-flex {
+    display: flex;
+}
+/*end footer*/
+
+/*about overview*/
+.card.card-plain.card-blog {
+    border: none;
+}
+/*end about overview*/
+/*application service*/
+h4.description {
+    color: #222222;
+}
+div#pricing-1 {
+    padding-bottom: 0px;
+}
+h2.title.text-center {
+    margin-bottom: 20px;
+    padding-top:0px;
+}
+p.text-center {
+    font-size: 15px;
+    color: #222222;
+}
+h6.category.text-info {
+    font-size: 17px;
+}
+h6.category.text-danger{
+    font-size: 17px;
+}
+p.card-description {
+    margin-top: 0px !important;
+    font-size: 15px;
+}
+h6.category.text-success {
+    font-size: 17px;
+}
+/*offshore*/
+h2.title {
+    margin-bottom: 15px;
+}
+/*end  service*/
+
+/*erp*/
+.description {
+    color: #222222;
+    /* line-height: 20px; */
+}
+p.description.mt-5 {
+    line-height: 20px;
+}
+/*end erp*/
+/*security*/
+h3.card-title {
+    font-weight: 600;
+    line-height: 1.412;
+}
+.col-md-7 ol {
+    margin-bottom: 0px;
+}
+/*end security*/
+li#mega-menu-item-text-15{
+    float: right !important;
+}
